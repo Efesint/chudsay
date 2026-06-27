@@ -42,6 +42,5 @@ chmod +x chudsay.rb
 ~~~
 5. Add chudsay to the path
 ~~~
-sudo cp chudsay /usr/local/bin/
+sudo cp chudsay /usr/local/bin/ (if you want to delete this: sudo rm /usr/local/bin/chudsay)
 ~~~
-4.
