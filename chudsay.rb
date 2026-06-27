@@ -1,16 +1,17 @@
+#!/usr/bin/env ruby
+
 =begin
-The script uses ASCII art created by Przemek Borys.
+The script uses ASCII art from the ethernet
 =end
 
-puts "It's tuxsays 1.0. Please write something"
-text = gets.chomp
+text = ARGV.join(" ")
 
-if text = " "
+if text.strip.empty?
    text = "Billions must DIE"
 end
 
 b = "_" * (text.length + 2)
-u = "-" * (text.length + 2) 
+u = "-" * (text.length + 2)
 
 puts " \n #{b}"
 puts "< #{text} >"
