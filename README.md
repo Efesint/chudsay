@@ -24,7 +24,7 @@
 
 ~~~
 ## installation
-(it's only manually installation 
+(it's only manually installation)\n
 1.clone the repository
 ~~~
 git clone https://github.com/Efesint/chudsay && cd chudsay
